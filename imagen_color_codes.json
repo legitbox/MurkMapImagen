@@ -1,78 +1,2342 @@
 {
-  "minecraft:grass_block": [112, 137, 57, 255],
-  "minecraft:water": [70, 148, 168, 175],
-  "minecraft:cobblestone": [ 154, 147, 142, 255],
-  "minecraft:lava": [ 255, 119, 26, 225],
-  "minecraft:dirt": [182, 106, 77, 255],
-  "minecraft:stone": [141, 131, 125, 255],
-  "minecraft:stone_bricks": [142, 132, 127, 255],
-  "minecraft:gravel": [220, 222, 209, 255],
-  "minecraft:clay": [165, 176, 182, 255],
-  "minecraft:short_grass": [78, 92, 44, 100],
-  "minecraft:snow": [250, 250, 250, 255],
-  "minecraft:snow_block": [250, 250, 250, 255],
-  "minecraft:snow_layer": [250, 250, 250, 200],
-  "minecraft:glass": [ 214, 222, 222, 75],
-  "minecraft:tuff": [ 123, 131, 117 , 255],
-  "minecraft:deepslate": [ 60, 60, 60 ,255],
-  "minecraft:diorite": [222, 220, 209,255],
-  "minecraft:andesite": [ 159, 169, 175, 255],
-  "minecraft:granite": [ 239, 168, 136, 255],
-
-  "minecraft:spruce_log": [148, 72, 64, 255],
-  "minecraft:birch_log": [148, 72, 64, 255],
-  "minecraft:oak_log": [148, 72, 64, 255],
-  "minecraft:dark_oak_log": [ 135, 77, 55 , 255],
-  "minecraft:mangrove_log": [148, 72, 64, 255],
-  "minecraft:cherry_log": [148, 72, 64, 255],
-  "minecraft:jungle_log": [148, 72, 64, 255],
-  "minecraft:acacia_log": [148, 72, 64, 255],
-
-  "minecraft:jungle_leaves": [139, 171, 68, 200],
-  "minecraft:oak_leaves": [78, 92, 44, 200],
-  "minecraft:dark_oak_leaves": [ 71, 82, 43 , 200],
-  "minecraft:spruce_leaves": [41, 104, 74, 200],
-  "minecraft:birch_leaves": [ 125, 149, 72 , 200],
-  "minecraft:mangrove_leaves": [51, 63, 41, 200],
-  "minecraft:cherry_leaves": [239, 147, 181, 200],
-  "minecraft:acacia_leaves": [ 147, 182, 68, 200],
-
-  "minecraft:sand": [255, 224, 183, 255],
-  "minecraft:netherrack": [148, 73, 64, 255],
-
-  "minecraft:oak_planks": [244, 186, 122, 255],
-  "minecraft:spruce_planks": [244, 186, 122, 255],
-  "minecraft:birch_planks": [244, 186, 122, 255],
-  "minecraft:dark_oak_planks": [244, 186, 122, 255],
-  "minecraft:acacia_planks": [244, 186, 122, 255],
-  "minecraft:mangrove_planks": [244, 186, 122, 255],
-  "minecraft:cherry_planks": [ 250, 202, 251 , 255],
-
-  "minecraft:oak_slab": [244, 186, 122, 255],
-  "minecraft:spruce_slab": [244, 186, 122, 255],
-  "minecraft:birch_slab": [244, 186, 122, 255],
-  "minecraft:dark_oak_slab": [244, 186, 122, 255],
-  "minecraft:acacia_slab": [244, 186, 122, 255],
-  "minecraft:mangrove_slab": [244, 186, 122, 255],
-
-  "minecraft:kelp": [ 65, 80, 54, 150],
-  "minecraft:seaweed": [  68, 148, 83 , 150],
-  "minecraft:torch": [255, 195, 0, 100],
-  "minecraft:grass_path": [237, 183, 98, 255],
-
-  "minecraft:ice": [150, 177, 231, 200],
-  "minecraft:packed_ice": [ 146, 170, 216, 200],
-  "minecraft:blue_ice": [150, 177, 231, 200],
-
-  "minecraft:oak_stairs": [244, 186, 122, 255],
-  "minecraft:spruce_stairs": [244, 186, 122, 255],
-  "minecraft:birch_stairs": [244, 186, 122, 255],
-  "minecraft:dark_oak_stairs": [244, 186, 122, 255],
-  "minecraft:acacia_stairs": [244, 186, 122, 255],
-  "minecraft:mangrove_stairs": [244, 186, 122, 255],
-  "minecraft:cherry_stairs": [250, 202, 251, 255],
-  "minecraft:cobblestone_stairs": [154, 147, 142, 255],
-
-  "minecraft:cobblestone_slab": [154, 147, 142, 255],
-  "minecraft:cherry_slab": [250, 202, 251, 255]
+  "minecraft:grass_block": [
+    112,
+    137,
+    57,
+    255
+  ],
+  "minecraft:water": [
+    70,
+    148,
+    168,
+    175
+  ],
+  "minecraft:cobblestone": [
+    154,
+    147,
+    142,
+    255
+  ],
+  "minecraft:lava": [
+    255,
+    119,
+    26,
+    225
+  ],
+  "minecraft:dirt": [
+    182,
+    106,
+    77,
+    255
+  ],
+  "minecraft:stone": [
+    141,
+    131,
+    125,
+    255
+  ],
+  "minecraft:stone_bricks": [
+    142,
+    132,
+    127,
+    255
+  ],
+  "minecraft:gravel": [
+    220,
+    222,
+    209,
+    255
+  ],
+  "minecraft:clay": [
+    165,
+    176,
+    182,
+    255
+  ],
+  "minecraft:short_grass": [
+    78,
+    92,
+    44,
+    100
+  ],
+  "minecraft:snow": [
+    250,
+    250,
+    250,
+    255
+  ],
+  "minecraft:snow_block": [
+    250,
+    250,
+    250,
+    255
+  ],
+  "minecraft:snow_layer": [
+    250,
+    250,
+    250,
+    200
+  ],
+  "minecraft:glass": [
+    214,
+    222,
+    222,
+    75
+  ],
+  "minecraft:tuff": [
+    123,
+    131,
+    117,
+    255
+  ],
+  "minecraft:deepslate": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:diorite": [
+    222,
+    220,
+    209,
+    255
+  ],
+  "minecraft:andesite": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:granite": [
+    239,
+    168,
+    136,
+    255
+  ],
+  "minecraft:spruce_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:birch_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:oak_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:dark_oak_log": [
+    135,
+    77,
+    55,
+    255
+  ],
+  "minecraft:mangrove_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:cherry_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:jungle_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:acacia_log": [
+    148,
+    72,
+    64,
+    255
+  ],
+  "minecraft:jungle_leaves": [
+    139,
+    171,
+    68,
+    200
+  ],
+  "minecraft:oak_leaves": [
+    78,
+    92,
+    44,
+    200
+  ],
+  "minecraft:dark_oak_leaves": [
+    71,
+    82,
+    43,
+    200
+  ],
+  "minecraft:spruce_leaves": [
+    41,
+    104,
+    74,
+    200
+  ],
+  "minecraft:birch_leaves": [
+    125,
+    149,
+    72,
+    200
+  ],
+  "minecraft:mangrove_leaves": [
+    51,
+    63,
+    41,
+    200
+  ],
+  "minecraft:cherry_leaves": [
+    239,
+    147,
+    181,
+    200
+  ],
+  "minecraft:acacia_leaves": [
+    147,
+    182,
+    68,
+    200
+  ],
+  "minecraft:sand": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:netherrack": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:oak_planks": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:spruce_planks": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:birch_planks": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:dark_oak_planks": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:acacia_planks": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:mangrove_planks": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:cherry_planks": [
+    250,
+    202,
+    251,
+    255
+  ],
+  "minecraft:oak_slab": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:spruce_slab": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:birch_slab": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:dark_oak_slab": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:acacia_slab": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:mangrove_slab": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:kelp": [
+    65,
+    80,
+    54,
+    150
+  ],
+  "minecraft:seaweed": [
+    68,
+    148,
+    83,
+    150
+  ],
+  "minecraft:torch": [
+    255,
+    195,
+    0,
+    100
+  ],
+  "minecraft:grass_path": [
+    237,
+    183,
+    98,
+    255
+  ],
+  "minecraft:ice": [
+    150,
+    177,
+    231,
+    200
+  ],
+  "minecraft:packed_ice": [
+    146,
+    170,
+    216,
+    200
+  ],
+  "minecraft:blue_ice": [
+    150,
+    177,
+    231,
+    200
+  ],
+  "minecraft:oak_stairs": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:spruce_stairs": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:birch_stairs": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:dark_oak_stairs": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:acacia_stairs": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:mangrove_stairs": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:cherry_stairs": [
+    250,
+    202,
+    251,
+    255
+  ],
+  "minecraft:cobblestone_stairs": [
+    154,
+    147,
+    142,
+    255
+  ],
+  "minecraft:cobblestone_slab": [
+    154,
+    147,
+    142,
+    255
+  ],
+  "minecraft:cherry_slab": [
+    250,
+    202,
+    251,
+    255
+  ],
+  "minecraft:bedrock": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:obsidian": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:end_stone": [
+    255,
+    255,
+    204,
+    255
+  ],
+  "minecraft:end_stone_bricks": [
+    255,
+    255,
+    204,
+    255
+  ],
+  "minecraft:purpur_block": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:purpur_pillar": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:ancient_debris": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:netherite_block": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:crying_obsidian": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:respawn_anchor": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:lodestone": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:target": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:honey_block": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:honeycomb_block": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:bee_nest": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:beehive": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:slime_block": [
+    147,
+    182,
+    68,
+    255
+  ],
+  "minecraft:prismarine": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:prismarine_bricks": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:dark_prismarine": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:prismarine_stairs": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:prismarine_brick_stairs": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:dark_prismarine_stairs": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:prismarine_slab": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:prismarine_brick_slab": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:dark_prismarine_slab": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:sea_pickle": [
+    147,
+    182,
+    68,
+    255
+  ],
+  "minecraft:conduit": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:turtle_egg": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:scaffolding": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:barrier": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:structure_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:jigsaw": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:command_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:repeating_command_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:chain_command_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:structure_void": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:light": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:spawner": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:iron_bars": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:iron_door": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:iron_trapdoor": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:iron_block": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:gold_block": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:diamond_block": [
+    96,
+    177,
+    231,
+    255
+  ],
+  "minecraft:emerald_block": [
+    147,
+    182,
+    68,
+    255
+  ],
+  "minecraft:lapis_block": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:coal_block": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:bookshelf": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:crafting_table": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:furnace": [
+    141,
+    131,
+    125,
+    255
+  ],
+  "minecraft:blast_furnace": [
+    141,
+    131,
+    125,
+    255
+  ],
+  "minecraft:smoker": [
+    141,
+    131,
+    125,
+    255
+  ],
+  "minecraft:enchanting_table": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:anvil": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:chipped_anvil": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:damaged_anvil": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:cauldron": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:brewing_stand": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:lectern": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:composter": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:bell": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:jukebox": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:note_block": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:flower_pot": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_oak_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_spruce_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_birch_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_jungle_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_acacia_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_dark_oak_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_mangrove_sapling": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_cherry_sapling": [
+    250,
+    202,
+    251,
+    255
+  ],
+  "minecraft:potted_fern": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_dandelion": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_poppy": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_blue_orchid": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_allium": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_azure_bluet": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_red_tulip": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_orange_tulip": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_white_tulip": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_pink_tulip": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_oxeye_daisy": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_cornflower": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_lily_of_the_valley": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_wither_rose": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_red_mushroom": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_brown_mushroom": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_dead_bush": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_cactus": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_bamboo": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_crimson_fungus": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_warped_fungus": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_crimson_roots": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_warped_roots": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_azalea": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:potted_flowering_azalea": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:end_rod": [
+    255,
+    255,
+    204,
+    255
+  ],
+  "minecraft:chorus_plant": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:chorus_flower": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:end_crystal": [
+    255,
+    255,
+    204,
+    255
+  ],
+  "minecraft:end_portal_frame": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:end_portal": [
+    25,
+    25,
+    25,
+    200
+  ],
+  "minecraft:end_gateway": [
+    25,
+    25,
+    25,
+    200
+  ],
+  "minecraft:shulker_box": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:white_shulker_box": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:orange_shulker_box": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:magenta_shulker_box": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:light_blue_shulker_box": [
+    96,
+    177,
+    231,
+    255
+  ],
+  "minecraft:yellow_shulker_box": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:lime_shulker_box": [
+    147,
+    182,
+    68,
+    255
+  ],
+  "minecraft:pink_shulker_box": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:gray_shulker_box": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:light_gray_shulker_box": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:cyan_shulker_box": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:purple_shulker_box": [
+    170,
+    122,
+    170,
+    255
+  ],
+  "minecraft:blue_shulker_box": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:brown_shulker_box": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:green_shulker_box": [
+    112,
+    137,
+    57,
+    255
+  ],
+  "minecraft:red_shulker_box": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:black_shulker_box": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:beacon": [
+    96,
+    177,
+    231,
+    255
+  ],
+  "minecraft:nether_quartz_ore": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:quartz_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:chiseled_quartz_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:quartz_pillar": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:quartz_stairs": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:quartz_slab": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:smooth_quartz": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:smooth_quartz_stairs": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:smooth_quartz_slab": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:nether_bricks": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:red_nether_bricks": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:nether_brick_fence": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:nether_brick_stairs": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:nether_brick_slab": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:nether_brick_wall": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:nether_wart_block": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:warped_wart_block": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:bone_block": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:stripped_oak_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_spruce_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_birch_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_jungle_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_acacia_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_dark_oak_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_mangrove_log": [
+    244,
+    186,
+    122,
+    255
+  ],
+  "minecraft:stripped_cherry_log": [
+    250,
+    202,
+    251,
+    255
+  ],
+  "minecraft:stripped_crimson_stem": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:stripped_warped_stem": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:crimson_planks": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:warped_planks": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:crimson_stem": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:warped_stem": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:crimson_hyphae": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:warped_hyphae": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:crimson_nylium": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:warped_nylium": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:crimson_fungus": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:warped_fungus": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:crimson_roots": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:warped_roots": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:nether_sprouts": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:shroomlight": [
+    255,
+    119,
+    26,
+    255
+  ],
+  "minecraft:glowstone": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:sea_lantern": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:lantern": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:soul_lantern": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:soul_torch": [
+    70,
+    148,
+    168,
+    100
+  ],
+  "minecraft:soul_campfire": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:soul_fire": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:soul_soil": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:basalt": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:polished_basalt": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:smooth_basalt": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:blackstone": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_bricks": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:cracked_polished_blackstone_bricks": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:chiseled_polished_blackstone": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:gilded_blackstone": [
+    255,
+    224,
+    183,
+    255
+  ],
+  "minecraft:blackstone_stairs": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:blackstone_slab": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:blackstone_wall": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_stairs": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_slab": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_wall": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_brick_stairs": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_brick_slab": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:polished_blackstone_brick_wall": [
+    25,
+    25,
+    25,
+    255
+  ],
+  "minecraft:chain": [
+    159,
+    169,
+    175,
+    255
+  ],
+  "minecraft:white_wool": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:orange_wool": [
+    250,
+    137,
+    113,
+    255
+  ],
+  "minecraft:magenta_wool": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:light_blue_wool": [
+    150,
+    177,
+    231,
+    255
+  ],
+  "minecraft:yellow_wool": [
+    243,
+    219,
+    111,
+    255
+  ],
+  "minecraft:lime_wool": [
+    184,
+    207,
+    97,
+    255
+  ],
+  "minecraft:pink_wool": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:gray_wool": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:light_gray_wool": [
+    124,
+    128,
+    139,
+    255
+  ],
+  "minecraft:cyan_wool": [
+    90,
+    197,
+    206,
+    255
+  ],
+  "minecraft:purple_wool": [
+    114,
+    86,
+    137,
+    255
+  ],
+  "minecraft:blue_wool": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:brown_wool": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:green_wool": [
+    55,
+    150,
+    72,
+    255
+  ],
+  "minecraft:red_wool": [
+    229,
+    88,
+    88,
+    255
+  ],
+  "minecraft:black_wool": [
+    33,
+    29,
+    37,
+    255
+  ],
+  "minecraft:white_stained_glass": [
+    255,
+    255,
+    255,
+    75
+  ],
+  "minecraft:orange_stained_glass": [
+    250,
+    137,
+    113,
+    75
+  ],
+  "minecraft:magenta_stained_glass": [
+    239,
+    147,
+    181,
+    75
+  ],
+  "minecraft:light_blue_stained_glass": [
+    150,
+    177,
+    231,
+    75
+  ],
+  "minecraft:yellow_stained_glass": [
+    243,
+    219,
+    111,
+    75
+  ],
+  "minecraft:lime_stained_glass": [
+    184,
+    207,
+    97,
+    75
+  ],
+  "minecraft:pink_stained_glass": [
+    239,
+    147,
+    181,
+    75
+  ],
+  "minecraft:gray_stained_glass": [
+    60,
+    60,
+    60,
+    75
+  ],
+  "minecraft:light_gray_stained_glass": [
+    124,
+    128,
+    139,
+    75
+  ],
+  "minecraft:cyan_stained_glass": [
+    90,
+    197,
+    206,
+    75
+  ],
+  "minecraft:purple_stained_glass": [
+    114,
+    86,
+    137,
+    75
+  ],
+  "minecraft:blue_stained_glass": [
+    70,
+    148,
+    168,
+    75
+  ],
+  "minecraft:brown_stained_glass": [
+    148,
+    73,
+    64,
+    75
+  ],
+  "minecraft:green_stained_glass": [
+    55,
+    150,
+    72,
+    75
+  ],
+  "minecraft:red_stained_glass": [
+    229,
+    88,
+    88,
+    75
+  ],
+  "minecraft:black_stained_glass": [
+    33,
+    29,
+    37,
+    75
+  ],
+  "minecraft:white_concrete": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:orange_concrete": [
+    250,
+    137,
+    113,
+    255
+  ],
+  "minecraft:magenta_concrete": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:light_blue_concrete": [
+    150,
+    177,
+    231,
+    255
+  ],
+  "minecraft:yellow_concrete": [
+    243,
+    219,
+    111,
+    255
+  ],
+  "minecraft:lime_concrete": [
+    184,
+    207,
+    97,
+    255
+  ],
+  "minecraft:pink_concrete": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:gray_concrete": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:light_gray_concrete": [
+    124,
+    128,
+    139,
+    255
+  ],
+  "minecraft:cyan_concrete": [
+    90,
+    197,
+    206,
+    255
+  ],
+  "minecraft:purple_concrete": [
+    114,
+    86,
+    137,
+    255
+  ],
+  "minecraft:blue_concrete": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:brown_concrete": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:green_concrete": [
+    55,
+    150,
+    72,
+    255
+  ],
+  "minecraft:red_concrete": [
+    229,
+    88,
+    88,
+    255
+  ],
+  "minecraft:black_concrete": [
+    33,
+    29,
+    37,
+    255
+  ],
+  "minecraft:terracotta": [
+    182,
+    106,
+    77,
+    255
+  ],
+  "minecraft:white_terracotta": [
+    214,
+    222,
+    222,
+    255
+  ],
+  "minecraft:orange_terracotta": [
+    231,
+    144,
+    85,
+    255
+  ],
+  "minecraft:magenta_terracotta": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:light_blue_terracotta": [
+    150,
+    177,
+    231,
+    255
+  ],
+  "minecraft:yellow_terracotta": [
+    243,
+    219,
+    111,
+    255
+  ],
+  "minecraft:lime_terracotta": [
+    184,
+    207,
+    97,
+    255
+  ],
+  "minecraft:pink_terracotta": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:gray_terracotta": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:light_gray_terracotta": [
+    124,
+    128,
+    139,
+    255
+  ],
+  "minecraft:cyan_terracotta": [
+    90,
+    197,
+    206,
+    255
+  ],
+  "minecraft:purple_terracotta": [
+    114,
+    86,
+    137,
+    255
+  ],
+  "minecraft:blue_terracotta": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:brown_terracotta": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:green_terracotta": [
+    55,
+    150,
+    72,
+    255
+  ],
+  "minecraft:red_terracotta": [
+    229,
+    88,
+    88,
+    255
+  ],
+  "minecraft:black_terracotta": [
+    33,
+    29,
+    37,
+    255
+  ],
+  "minecraft:white_glazed_terracotta": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "minecraft:orange_glazed_terracotta": [
+    250,
+    137,
+    113,
+    255
+  ],
+  "minecraft:magenta_glazed_terracotta": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:light_blue_glazed_terracotta": [
+    150,
+    177,
+    231,
+    255
+  ],
+  "minecraft:yellow_glazed_terracotta": [
+    243,
+    219,
+    111,
+    255
+  ],
+  "minecraft:lime_glazed_terracotta": [
+    184,
+    207,
+    97,
+    255
+  ],
+  "minecraft:pink_glazed_terracotta": [
+    239,
+    147,
+    181,
+    255
+  ],
+  "minecraft:gray_glazed_terracotta": [
+    60,
+    60,
+    60,
+    255
+  ],
+  "minecraft:light_gray_glazed_terracotta": [
+    124,
+    128,
+    139,
+    255
+  ],
+  "minecraft:cyan_glazed_terracotta": [
+    90,
+    197,
+    206,
+    255
+  ],
+  "minecraft:purple_glazed_terracotta": [
+    114,
+    86,
+    137,
+    255
+  ],
+  "minecraft:blue_glazed_terracotta": [
+    70,
+    148,
+    168,
+    255
+  ],
+  "minecraft:brown_glazed_terracotta": [
+    148,
+    73,
+    64,
+    255
+  ],
+  "minecraft:green_glazed_terracotta": [
+    55,
+    150,
+    72,
+    255
+  ],
+  "minecraft:red_glazed_terracotta": [
+    229,
+    88,
+    88,
+    255
+  ],
+  "minecraft:black_glazed_terracotta": [
+    33,
+    29,
+    37,
+    255
+  ],
+  "minecraft:amethyst_block": [
+    114,
+    86,
+    137,
+    255
+  ],
+  "minecraft:budding_amethyst": [
+    114,
+    86,
+    137,
+    255
+  ],
+  "minecraft:redstone_block": [
+    229,
+    88,
+    88,
+    255
+  ],
+  "minecraft:dandelion": [243, 219, 111, 255],
+  "minecraft:poppy": [229, 88, 88, 255],
+  "minecraft:blue_orchid": [70, 148, 168, 255],
+  "minecraft:allium": [239, 147, 181, 255],
+  "minecraft:azure_bluet": [255, 255, 255, 255],
+  "minecraft:red_tulip": [229, 88, 88, 255],
+  "minecraft:orange_tulip": [250, 137, 113, 255],
+  "minecraft:white_tulip": [255, 255, 255, 255],
+  "minecraft:pink_tulip": [239, 147, 181, 255],
+  "minecraft:oxeye_daisy": [255, 255, 255, 255],
+  "minecraft:cornflower": [70, 148, 168, 255],
+  "minecraft:lily_of_the_valley": [255, 255, 255, 255],
+  "minecraft:wither_rose": [33, 29, 37, 255],
+  "minecraft:sunflower": [243, 219, 111, 255],
+  "minecraft:lilac": [239, 147, 181, 255],
+  "minecraft:rose_bush": [229, 88, 88, 255],
+  "minecraft:peony": [239, 147, 181, 255],
+  "minecraft:grass": [78, 92, 44, 255],
+  "minecraft:fern": [78, 92, 44, 255],
+  "minecraft:dead_bush": [148, 73, 64, 255],
+  "minecraft:seagrass": [55, 150, 72, 255],
+  "minecraft:kelp_plant": [55, 150, 72, 150],
+  "minecraft:bamboo": [55, 150, 72, 255],
+  "minecraft:cactus": [55, 150, 72, 255],
+  "minecraft:sugar_cane": [55, 150, 72, 255],
+  "minecraft:azalea": [55, 150, 72, 255],
+  "minecraft:flowering_azalea": [239, 147, 181, 255],
+  "minecraft:oak_sapling": [78, 92, 44, 255],
+  "minecraft:spruce_sapling": [41, 104, 74, 255],
+  "minecraft:birch_sapling": [125, 149, 72, 255],
+  "minecraft:jungle_sapling": [78, 92, 44, 255],
+  "minecraft:acacia_sapling": [147, 182, 68, 255],
+  "minecraft:dark_oak_sapling": [71, 82, 43, 255],
+  "minecraft:mangrove_propagule": [55, 150, 72, 255],
+  "minecraft:cherry_sapling": [239, 147, 181, 255],
+  "minecraft:red_mushroom": [229, 88, 88, 255],
+  "minecraft:brown_mushroom": [148, 73, 64, 255],
+  "minecraft:tube_coral": [229, 88, 88, 255],
+  "minecraft:brain_coral": [239, 147, 181, 255],
+  "minecraft:bubble_coral": [239, 147, 181, 255],
+  "minecraft:fire_coral": [229, 88, 88, 255],
+  "minecraft:horn_coral": [243, 219, 111, 255],
+  "minecraft:dead_tube_coral": [124, 128, 139, 255],
+  "minecraft:dead_brain_coral": [124, 128, 139, 255],
+  "minecraft:dead_bubble_coral": [124, 128, 139, 255],
+  "minecraft:dead_fire_coral": [124, 128, 139, 255],
+  "minecraft:dead_horn_coral": [124, 128, 139, 255],
+  "minecraft:tube_coral_fan": [229, 88, 88, 255],
+  "minecraft:brain_coral_fan": [239, 147, 181, 255],
+  "minecraft:bubble_coral_fan": [239, 147, 181, 255],
+  "minecraft:fire_coral_fan": [229, 88, 88, 255],
+  "minecraft:horn_coral_fan": [243, 219, 111, 255],
+  "minecraft:dead_tube_coral_fan": [124, 128, 139, 255],
+  "minecraft:dead_brain_coral_fan": [124, 128, 139, 255],
+  "minecraft:dead_bubble_coral_fan": [124, 128, 139, 255],
+  "minecraft:rail": [60, 60, 60, 55],
+  "minecraft:dead_fire_coral_fan": [124, 128, 139, 255],
+  "minecraft:dead_horn_coral_fan": [124, 128, 139, 255],
+  "minecraft:tube_coral_block": [229, 88, 88, 255],
+  "minecraft:brain_coral_block": [239, 147, 181, 255],
+  "minecraft:bubble_coral_block": [239, 147, 181, 255],
+  "minecraft:fire_coral_block": [229, 88, 88, 255],
+  "minecraft:horn_coral_block": [243, 219, 111, 255],
+  "minecraft:dead_tube_coral_block": [124, 128, 139, 255],
+  "minecraft:dead_brain_coral_block": [124, 128, 139, 255],
+  "minecraft:dead_bubble_coral_block": [124, 128, 139, 255],
+  "minecraft:dead_fire_coral_block": [124, 128, 139, 255],
+  "minecraft:dead_horn_coral_block": [124, 128, 139, 255],
+  "minecraft:andesite_slab": [159, 169, 175, 255],
+  "minecraft:andesite_stairs": [159, 169, 175, 255],
+  "minecraft:andesite_wall": [159, 169, 175, 255],
+  "minecraft:bamboo_slab": [55, 150, 72, 255],
+  "minecraft:bamboo_stairs": [55, 150, 72, 255],
+  "minecraft:brick_slab": [148, 73, 64, 255],
+  "minecraft:brick_stairs": [148, 73, 64, 255],
+  "minecraft:brick_wall": [148, 73, 64, 255],
+  "minecraft:cobblestone_wall": [154, 147, 142, 255],
+  "minecraft:crimson_slab": [148, 73, 64, 255],
+  "minecraft:crimson_stairs": [148, 73, 64, 255],
+  "minecraft:cut_copper_slab": [239, 168, 136, 255],
+  "minecraft:cut_copper_stairs": [239, 168, 136, 255],
+  "minecraft:deepslate_brick_slab": [60, 60, 60, 255],
+  "minecraft:deepslate_brick_stairs": [60, 60, 60, 255],
+  "minecraft:deepslate_brick_wall": [60, 60, 60, 255],
+  "minecraft:deepslate_tile_slab": [60, 60, 60, 255],
+  "minecraft:deepslate_tile_stairs": [60, 60, 60, 255],
+  "minecraft:deepslate_tile_wall": [60, 60, 60, 255],
+  "minecraft:diorite_slab": [222, 220, 209, 255],
+  "minecraft:diorite_stairs": [222, 220, 209, 255],
+  "minecraft:diorite_wall": [222, 220, 209, 255],
+  "minecraft:end_stone_brick_slab": [255, 255, 204, 255],
+  "minecraft:end_stone_brick_stairs": [255, 255, 204, 255],
+  "minecraft:end_stone_brick_wall": [255, 255, 204, 255],
+  "minecraft:exposed_cut_copper_slab": [182, 106, 77, 255],
+  "minecraft:exposed_cut_copper_stairs": [182, 106, 77, 255],
+  "minecraft:granite_slab": [239, 168, 136, 255],
+  "minecraft:granite_stairs": [239, 168, 136, 255],
+  "minecraft:granite_wall": [239, 168, 136, 255],
+  "minecraft:jungle_slab": [244, 186, 122, 255],
+  "minecraft:jungle_stairs": [244, 186, 122, 255],
+  "minecraft:mossy_cobblestone_slab": [55, 150, 72, 255],
+  "minecraft:mossy_cobblestone_stairs": [55, 150, 72, 255],
+  "minecraft:mossy_cobblestone_wall": [55, 150, 72, 255],
+  "minecraft:mossy_stone_brick_slab": [41, 104, 74, 255],
+  "minecraft:mossy_stone_brick_stairs": [41, 104, 74, 255],
+  "minecraft:mossy_stone_brick_wall": [41, 104, 74, 255],
+  "minecraft:oxidized_cut_copper_slab": [70, 148, 168, 255],
+  "minecraft:oxidized_cut_copper_stairs": [70, 148, 168, 255],
+  "minecraft:polished_andesite_slab": [159, 169, 175, 255],
+  "minecraft:polished_andesite_stairs": [159, 169, 175, 255],
+  "minecraft:polished_deepslate_slab": [60, 60, 60, 255],
+  "minecraft:polished_deepslate_stairs": [60, 60, 60, 255],
+  "minecraft:polished_deepslate_wall": [60, 60, 60, 255],
+  "minecraft:polished_diorite_slab": [222, 220, 209, 255],
+  "minecraft:polished_diorite_stairs": [222, 220, 209, 255],
+  "minecraft:polished_granite_slab": [239, 168, 136, 255],
+  "minecraft:polished_granite_stairs": [239, 168, 136, 255],
+  "minecraft:purpur_slab": [170, 122, 170, 255],
+  "minecraft:purpur_stairs": [170, 122, 170, 255],
+  "minecraft:red_nether_brick_slab": [229, 88, 88, 255],
+  "minecraft:red_nether_brick_stairs": [229, 88, 88, 255],
+  "minecraft:red_nether_brick_wall": [229, 88, 88, 255],
+  "minecraft:red_sandstone_slab": [255, 224, 183, 255],
+  "minecraft:red_sandstone_stairs": [255, 224, 183, 255],
+  "minecraft:red_sandstone_wall": [255, 224, 183, 255],
+  "minecraft:sandstone_slab": [255, 224, 183, 255],
+  "minecraft:sandstone_stairs": [255, 224, 183, 255],
+  "minecraft:sandstone_wall": [255, 224, 183, 255],
+  "minecraft:smooth_red_sandstone_slab": [255, 224, 183, 255],
+  "minecraft:smooth_red_sandstone_stairs": [255, 224, 183, 255],
+  "minecraft:smooth_sandstone_slab": [255, 224, 183, 255],
+  "minecraft:smooth_sandstone_stairs": [255, 224, 183, 255],
+  "minecraft:smooth_stone_slab": [141, 131, 125, 255],
+  "minecraft:stone_brick_slab": [142, 132, 127, 255],
+  "minecraft:stone_brick_stairs": [142, 132, 127, 255],
+  "minecraft:stone_brick_wall": [142, 132, 127, 255],
+  "minecraft:stone_slab": [141, 131, 125, 255],
+  "minecraft:stone_stairs": [141, 131, 125, 255],
+  "minecraft:warped_slab": [70, 148, 168, 255],
+  "minecraft:warped_stairs": [70, 148, 168, 255],
+  "minecraft:waxed_cut_copper_slab": [239, 168, 136, 255],
+  "minecraft:waxed_cut_copper_stairs": [239, 168, 136, 255],
+  "minecraft:waxed_exposed_cut_copper_slab": [182, 106, 77, 255],
+  "minecraft:waxed_exposed_cut_copper_stairs": [182, 106, 77, 255],
+  "minecraft:waxed_oxidized_cut_copper_slab": [70, 148, 168, 255],
+  "minecraft:waxed_oxidized_cut_copper_stairs": [70, 148, 168, 255],
+  "minecraft:waxed_weathered_cut_copper_slab": [70, 148, 168, 255],
+  "minecraft:waxed_weathered_cut_copper_stairs": [70, 148, 168, 255],
+  "minecraft:weathered_cut_copper_slab": [70, 148, 168, 255],
+  "minecraft:weathered_cut_copper_stairs": [70, 148, 168, 255],
+  "minecraft:mossy_cobblestone": [55, 150, 72, 255],
+  "minecraft:infested_stone": [141, 131, 125, 255],
+  "minecraft:infested_cobblestone": [154, 147, 142, 255],
+  "minecraft:infested_stone_bricks": [142, 132, 127, 255],
+  "minecraft:infested_mossy_stone_bricks": [41, 104, 74, 255],
+  "minecraft:infested_cracked_stone_bricks": [142, 132, 127, 255],
+  "minecraft:infested_chiseled_stone_bricks": [142, 132, 127, 255],
+  "minecraft:polished_granite": [239, 168, 136, 255],
+  "minecraft:polished_diorite": [222, 220, 209, 255],
+  "minecraft:polished_andesite": [159, 169, 175, 255],
+  "minecraft:cobbled_deepslate": [60, 60, 60, 255],
+  "minecraft:polished_deepslate": [60, 60, 60, 255],
+  "minecraft:deepslate_bricks": [60, 60, 60, 255],
+  "minecraft:cracked_deepslate_bricks": [60, 60, 60, 255],
+  "minecraft:deepslate_tiles": [60, 60, 60, 255],
+  "minecraft:cracked_deepslate_tiles": [60, 60, 60, 255],
+  "minecraft:chiseled_deepslate": [60, 60, 60, 255],
+  "minecraft:calcite": [255, 255, 255, 255],
+  "minecraft:sandstone": [255, 224, 183, 255],
+  "minecraft:chiseled_sandstone": [255, 224, 183, 255],
+  "minecraft:cut_sandstone": [255, 224, 183, 255],
+  "minecraft:smooth_sandstone": [255, 224, 183, 255],
+  "minecraft:red_sandstone": [255, 224, 183, 255],
+  "minecraft:chiseled_red_sandstone": [255, 224, 183, 255],
+  "minecraft:cut_red_sandstone": [255, 224, 183, 255],
+  "minecraft:smooth_red_sandstone": [255, 224, 183, 255],
+  "minecraft:redstone_lamp": [229, 88, 88, 150],
+  "minecraft:redstone_ore": [229, 88, 88, 255],
+  "minecraft:deepslate_redstone_ore": [229, 88, 88, 255],
+  "minecraft:redstone_torch": [229, 88, 88, 255],
+  "minecraft:redstone_wire": [229, 88, 88, 255],
+  "minecraft:repeater": [229, 88, 88, 255],
+  "minecraft:comparator": [229, 88, 88, 255],
+  "minecraft:observer": [141, 131, 125, 255],
+  "minecraft:dispenser": [141, 131, 125, 255],
+  "minecraft:dropper": [141, 131, 125, 255],
+  "minecraft:hopper": [141, 131, 125, 255],
+  "minecraft:piston": [141, 131, 125, 255],
+  "minecraft:sticky_piston": [141, 131, 125, 255],
+  "minecraft:lever": [141, 131, 125, 255],
+  "minecraft:daylight_detector": [141, 131, 125, 255],
+  "minecraft:tripwire_hook": [141, 131, 125, 255],
+  "minecraft:tripwire": [141, 131, 125, 255],
+  "minecraft:powered_rail": [229, 88, 88, 255],
+  "minecraft:detector_rail": [229, 88, 88, 255],
+  "minecraft:activator_rail": [229, 88, 88, 255],
+  "minecraft:campfire": [243, 219, 111, 255],
+  "minecraft:jack_o_lantern": [243, 219, 111, 255],
+  "minecraft:painting": [255, 255, 255, 255],
+  "minecraft:item_frame": [141, 131, 125, 255],
+  "minecraft:armor_stand": [141, 131, 125, 255],
+  "minecraft:chest": [244, 186, 122, 255],
+  "minecraft:trapped_chest": [244, 186, 122, 255],
+  "minecraft:white_banner": [255, 255, 255, 255],
+  "minecraft:orange_banner": [250, 137, 113, 255],
+  "minecraft:magenta_banner": [239, 147, 181, 255],
+  "minecraft:light_blue_banner": [150, 177, 231, 255],
+  "minecraft:yellow_banner": [243, 219, 111, 255],
+  "minecraft:lime_banner": [184, 207, 97, 255],
+  "minecraft:pink_banner": [239, 147, 181, 255],
+  "minecraft:gray_banner": [60, 60, 60, 255],
+  "minecraft:light_gray_banner": [124, 128, 139, 255],
+  "minecraft:cyan_banner": [90, 197, 206, 255],
+  "minecraft:purple_banner": [170, 122, 170, 255],
+  "minecraft:blue_banner": [70, 148, 168, 255],
+  "minecraft:brown_banner": [148, 73, 64, 255],
+  "minecraft:green_banner": [55, 150, 72, 255],
+  "minecraft:red_banner": [229, 88, 88, 255],
+  "minecraft:black_banner": [33, 29, 37, 255],
+  "minecraft:ladder": [244, 186, 122, 255],
+  "minecraft:glass_pane": [214, 222, 222, 75],
+  "minecraft:white_stained_glass_pane": [255, 255, 255, 75],
+  "minecraft:orange_stained_glass_pane": [250, 137, 113, 75],
+  "minecraft:magenta_stained_glass_pane": [239, 147, 181, 75],
+  "minecraft:light_blue_stained_glass_pane": [150, 177, 231, 75],
+  "minecraft:yellow_stained_glass_pane": [243, 219, 111, 75],
+  "minecraft:lime_stained_glass_pane": [184, 207, 97, 75],
+  "minecraft:pink_stained_glass_pane": [239, 147, 181, 75],
+  "minecraft:gray_stained_glass_pane": [60, 60, 60, 75],
+  "minecraft:light_gray_stained_glass_pane": [124, 128, 139, 75],
+  "minecraft:cyan_stained_glass_pane": [90, 197, 206, 75],
+  "minecraft:purple_stained_glass_pane": [170, 122, 170, 75],
+  "minecraft:blue_stained_glass_pane": [70, 148, 168, 75],
+  "minecraft:brown_stained_glass_pane": [148, 73, 64, 75],
+  "minecraft:green_stained_glass_pane": [55, 150, 72, 75],
+  "minecraft:red_stained_glass_pane": [229, 88, 88, 75],
+  "minecraft:black_stained_glass_pane": [33, 29, 37, 75],
+  "minecraft:coal_ore": [60, 60, 60, 255],
+  "minecraft:deepslate_coal_ore": [60, 60, 60, 255],
+  "minecraft:iron_ore": [141, 131, 125, 255],
+  "minecraft:deepslate_iron_ore": [60, 60, 60, 255],
+  "minecraft:copper_ore": [239, 168, 136, 255],
+  "minecraft:deepslate_copper_ore": [60, 60, 60, 255],
+  "minecraft:gold_ore": [243, 219, 111, 255],
+  "minecraft:deepslate_gold_ore": [60, 60, 60, 255],
+  "minecraft:emerald_ore": [55, 150, 72, 255],
+  "minecraft:deepslate_emerald_ore": [60, 60, 60, 255],
+  "minecraft:lapis_ore": [70, 148, 168, 255],
+  "minecraft:deepslate_lapis_ore": [60, 60, 60, 255],
+  "minecraft:diamond_ore": [90, 197, 206, 255],
+  "minecraft:deepslate_diamond_ore": [60, 60, 60, 255],
+  "minecraft:nether_gold_ore": [243, 219, 111, 255],
+  "minecraft:copper_block": [239, 168, 136, 255],
+  "minecraft:exposed_copper": [182, 106, 77, 255],
+  "minecraft:weathered_copper": [70, 148, 168, 255],
+  "minecraft:oxidized_copper": [70, 148, 168, 255],
+  "minecraft:cut_copper": [239, 168, 136, 255],
+  "minecraft:exposed_cut_copper": [182, 106, 77, 255],
+  "minecraft:weathered_cut_copper": [70, 148, 168, 255],
+  "minecraft:oxidized_cut_copper": [70, 148, 168, 255],
+  "minecraft:waxed_copper_block": [239, 168, 136, 255],
+  "minecraft:waxed_exposed_copper": [182, 106, 77, 255],
+  "minecraft:waxed_weathered_copper": [70, 148, 168, 255],
+  "minecraft:waxed_oxidized_copper": [70, 148, 168, 255],
+  "minecraft:waxed_cut_copper": [239, 168, 136, 255],
+  "minecraft:waxed_exposed_cut_copper": [182, 106, 77, 255],
+  "minecraft:waxed_weathered_cut_copper": [70, 148, 168, 255],
+  "minecraft:waxed_oxidized_cut_copper": [70, 148, 168, 255],
+  "minecraft:grindstone": [141, 131, 125, 255],
+  "minecraft:stonecutter": [141, 131, 125, 255],
+  "minecraft:smithing_table": [141, 131, 125, 255],
+  "minecraft:loom": [244, 186, 122, 255],
+  "minecraft:cartography_table": [244, 186, 122, 255],
+  "minecraft:fletching_table": [244, 186, 122, 255],
+  "minecraft:barrel": [244, 186, 122, 255],
+  "minecraft:ender_chest": [33, 29, 37, 255],
+  "minecraft:bricks": [148, 73, 64, 255],
+  "minecraft:chiseled_stone_bricks": [142, 132, 127, 255],
+  "minecraft:cracked_stone_bricks": [142, 132, 127, 255],
+  "minecraft:mossy_stone_bricks": [41, 104, 74, 255],
+  "minecraft:cracked_nether_bricks": [148, 73, 64, 255],
+  "minecraft:chiseled_nether_bricks": [148, 73, 64, 255]
 }
